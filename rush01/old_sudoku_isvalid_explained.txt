@@ -1,0 +1,63 @@
+/*
+** Solving the Sudoku using is_valid;
+**
+** We need a function that solves the sudoku, when it is done:
+** it will return TRUE aka 1;
+** If it cannot solve the sudoku it has been given- it will return FALSE aka 0;
+**
+** Since we fill each block from the top left moving right, then down a row.
+** if we are trying to check a column and row out inside our bounds
+** if the cell we are currently solving isn't 0, our blank value:
+** {
+	**  and if the current column we are working on, + 1, is still < 9
+	**  {
+		**   Call our solve function again, with the the column + 1
+		**  }
+		**  else, if we exceeded 9. and if the row + 1 is still < 9
+		**  {
+			**   Call our solve function again, with the row + 1, and the column reset to 0
+			**  }
+			**  else, we have a solved puzzle.
+			** }
+			** else, meaning if the cell we are currently solving is a blank value
+			** {
+				**  let's start a loop to find a number that will fill it.
+				**  while the number_to_check is less than 10
+				**  {
+					**   if our current cell is valid for the number_to_check
+					**   {
+						**    set the currennt cell to the number_to_check
+						**    if we can continue filling the puzzle to a full solution
+						**    {
+							**     return TRUE aka 1
+							**    }
+							**    else
+							**    {
+								**     reset this cell to 0
+								**    }
+								**   }
+								**   we should check the next number. number_to_check++;
+								**  }
+								** }
+								** we can't solve this puzzle, return FALSE aka 0;
+* }
+** we have solved the puzzle!
+** (we tried to check a column and row outside our bounds!)
+*/
+
+/*
+** so we are going to be getting an array of strings
+** each string has 9 chars in it
+** each char is either a number char
+** or it is a .
+** when we see a number char, we should convert it to an int
+** then put it in our int[][]
+** The first string, represents the first row
+** the second string, the second row, and so on.
+** so we will end up looping 9 times in our outter loop
+**  through our arrays
+** and 9 times in our inner loop
+**  through our current string
+** when we are done, return the newly made int[][]
+** it will be full of 0's and already solved positions.
+*/

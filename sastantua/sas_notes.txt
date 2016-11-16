@@ -1,0 +1,11 @@
+how many lines tall?
+how many characters wide is the base?
+how many tiers?
+ There are as many tiers as the value of nb
+how big is the door?
+ The door is a square the size of the nb if nb % 2 = 0, else nb - 1
+
+7 19 33 51 71 95
+1 2  3   4  5
+1 1  3   3  5
+
