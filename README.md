@@ -7,10 +7,11 @@ I was learning at the time, so I make no promise any of these work and have no p
 
 ---
 
-## If you are in the C Piscine at 42 or on any other campus, CODE THIS ON YOUR OWN!
+### If you are in the C Piscine at 42 or on any other campus,
+### CODE THIS ON YOUR OWN!
 Your skill as a coder will thank you.
 
-## When picking solo vs team projects, always focus on team projects and communication.
+### When picking solo vs team projects, always focus on team projects and communication.
 Your skill as a human will thank you.
 
 ---
