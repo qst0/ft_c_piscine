@@ -1,6 +1,6 @@
 # c_piscine
 
-Hello, exhaulted visitor!
+Hello, exhaulted visitor! (and special greetings to the pools starting this month~)
 
 These are the files to the c programming execrises used for the 42 School C Piscine, which is a coding challange lasting about a month.
 I was learning at the time, so I make no promise any of these work and have no plan to update them.
